@@ -1,0 +1,15 @@
+.invisible-link {
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+    width: 0;
+    display: block;
+}
+
+.hover-card {
+    background-color: var(--bs-card-bg);
+    transition: 0.3s;
+}
+.hover-card:hover {
+    background-color: var(--bs-primary);
+}
